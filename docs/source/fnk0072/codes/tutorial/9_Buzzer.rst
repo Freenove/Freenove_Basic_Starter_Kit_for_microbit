@@ -112,7 +112,7 @@ Open MakeCode first. Import the .hex file. The path is as below:
 +-----------+-----------------------------------------+------------------+
 | File type | Path                                    | File name        |
 +-----------+-----------------------------------------+------------------+
-| HEX file  | ../Projects/BlockCode/09.1_ActiveBuzzer | ActiveBuzzer.hex |
+| HEX file  | ../Projects/BlockCode/08.1_ActiveBuzzer | ActiveBuzzer.hex |
 +-----------+-----------------------------------------+------------------+
 
 After importing successfully, the code is shown as below:
@@ -135,7 +135,7 @@ Open the .py file with Mu. Code, the path is as below:
 +-------------+------------------------------------------+-----------------+
 | File type   | Path                                     | File name       |
 +-------------+------------------------------------------+-----------------+
-| Python file | ../Projects/PythonCode/09.1_ActiveBuzzer | ActiveBuzzer.py |
+| Python file | ../Projects/PythonCode/08.1_ActiveBuzzer | ActiveBuzzer.py |
 +-------------+------------------------------------------+-----------------+
 
 After load successfully, the code is shown as below:
@@ -147,7 +147,7 @@ Check the connection of the circuit, download the code into the micro:bit, and t
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/09.1_ActiveBuzzer/ActiveBuzzer.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/08.1_ActiveBuzzer/ActiveBuzzer.py
     :linenos: 
     :language: python
     :lines: 1-8
@@ -155,7 +155,7 @@ The following is the program code:
 
 In the for loop, P0 outputs a high level to make the buzzer sound, then delay 100ms. And then P0 outputs a low level to stop the buzzer. Then delay 100ms. After the loop ends, delay 500ms.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/09.1_ActiveBuzzer/ActiveBuzzer.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/08.1_ActiveBuzzer/ActiveBuzzer.py
     :linenos: 
     :language: python
     :lines: 2-8
@@ -209,7 +209,7 @@ Open MakeCode first. Import the .hex file. The path is as below:
 +-----------+------------------------------------------+-------------------+
 | File type | Path                                     | File name         |
 +-----------+------------------------------------------+-------------------+
-| HEX file  | ../Projects/BlockCode/09.2_Play-a-melody | Play-a-melody.hex |
+| HEX file  | ../Projects/BlockCode/08.2_Play-a-melody | Play-a-melody.hex |
 +-----------+------------------------------------------+-------------------+
 
 After importing successfully, the code is shown as below:
@@ -250,7 +250,7 @@ Open the .py file with Mu. Code, the path is as below:
 +-------------+-------------------------------------------+------------------+
 | File type   | Path                                      | File name        |
 +-------------+-------------------------------------------+------------------+
-| Python file | ../Projects/PythonCode/09.2_Play-a-melody | Play-a-melody.py |
+| Python file | ../Projects/PythonCode/08.2_Play-a-melody | Play-a-melody.py |
 +-------------+-------------------------------------------+------------------+
 
 After loading successfully, the code is shown as below:
@@ -262,7 +262,7 @@ Check the connection of the circuit, confirm that the circuit is connected corre
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/09.2_Play-a-melody/Play-a-melody.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/08.2_Play-a-melody/Play-a-melody.py
     :linenos: 
     :language: python
     :lines: 1-3
@@ -327,7 +327,7 @@ Open MakeCode first. Import the .hex file. The path is as below:
 +-----------+-------------------------------------------------+--------------------------+
 | File type | Path                                            | File name                |
 +-----------+-------------------------------------------------+--------------------------+
-| HEX file  | ../Projects/BlockCode/09.3_Play-a-custom-melody | Play-a-custom-melody.hex |
+| HEX file  | ../Projects/BlockCode/08.3_Play-a-custom-melody | Play-a-custom-melody.hex |
 +-----------+-------------------------------------------------+--------------------------+
 
 After importing successfully, the code is shown as below:
@@ -347,7 +347,7 @@ Open the .py file with Mu. Code, the path is as below:
 +-------------+--------------------------------------------------+-------------------------+
 | File type   | Path                                             | File name               |
 +-------------+--------------------------------------------------+-------------------------+
-| Python file | ../Projects/PythonCode/09.3_Play-a-custom-melody | Play-a-custom-melody.py |
+| Python file | ../Projects/PythonCode/08.3_Play-a-custom-melody | Play-a-custom-melody.py |
 +-------------+--------------------------------------------------+-------------------------+
 
 After loading successfully, the code is shown as below:
@@ -361,7 +361,7 @@ The tune array holds a custom melody, and each element in the array contains not
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/09.3_Play-a-custom-melody/Play-a-custom-melody.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/08.3_Play-a-custom-melody/Play-a-custom-melody.py
     :linenos: 
     :language: python
     :lines: 1-5

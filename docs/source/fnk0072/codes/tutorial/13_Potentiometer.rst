@@ -103,7 +103,7 @@ Open MakeCode first. Import the .hex file. The path is as below:
 +-----------+------------------------------------------+-------------------+
 | File type | Path                                     | File name         |
 +-----------+------------------------------------------+-------------------+
-| HEX file  | ../Projects/BlockCode/13.1_Potentiometer | Potentiometer.hex |
+| HEX file  | ../Projects/BlockCode/12.1_Potentiometer | Potentiometer.hex |
 +-----------+------------------------------------------+-------------------+
 
 After importing successfully, the code is shown as below:
@@ -154,7 +154,7 @@ Open the .py file with Mu. Code, the path is as below:
 +-------------+-------------------------------------------+------------------+
 | File type   | Path                                      | File name        |
 +-------------+-------------------------------------------+------------------+
-| Python file | ../Projects/PythonCode/13.1_Potentiometer | Potentiometer.py |
+| Python file | ../Projects/PythonCode/12.1_Potentiometer | Potentiometer.py |
 +-------------+-------------------------------------------+------------------+
 
 After loading successfully, the code is shown as below:
@@ -171,7 +171,7 @@ Click on the REPL, press the micro:bit reset button, and then rotate the potenti
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/13.1_Potentiometer/Potentiometer.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/12.1_Potentiometer/Potentiometer.py
     :linenos: 
     :language: python
     :lines: 1-6
@@ -179,7 +179,7 @@ The following is the program code:
 
 Read the analog voltage value of the P0 pin, the range is 0-1023, and then convert the analog voltage value into a digital voltage value.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/13.1_Potentiometer/Potentiometer.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/12.1_Potentiometer/Potentiometer.py
     :linenos: 
     :language: python
     :lines: 3-4
@@ -187,7 +187,7 @@ Read the analog voltage value of the P0 pin, the range is 0-1023, and then conve
 
 Print the analog voltage and digital voltage of P0 pin every 1 second.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/13.1_Potentiometer/Potentiometer.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/12.1_Potentiometer/Potentiometer.py
     :linenos: 
     :language: python
     :lines: 5-6

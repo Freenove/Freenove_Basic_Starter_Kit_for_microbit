@@ -56,7 +56,7 @@ In this circuit, the port 1 and 2 of the potentiometer are respectively connecte
 .. |Chapter14_03| image:: ../_static/imgs/14_Potentiometer_and_LED/Chapter14_03.png
 .. |Chapter14_04| image:: ../_static/imgs/14_Potentiometer_and_LED/Chapter14_04.png
 
-:red:`P1 pin is connected to LED’s long pin (positive), and its short pin (negative) is connected to resistor.`
+:red:`P1 pin is connected to LED's long pin (positive), and its short pin (negative) is connected to resistor.`
 
 Block code
 ==========================
@@ -67,7 +67,7 @@ Open MakeCode first. Import the .hex file. The path is as below:
 +-----------+--------------------------------------+---------------+
 | File type | Path                                 | File name     |
 +-----------+--------------------------------------+---------------+
-| HEX file  | ../Projects/BlockCode/14.1_SoftLight | SoftLight.hex |
+| HEX file  | ../Projects/BlockCode/13.1_SoftLight | SoftLight.hex |
 +-----------+--------------------------------------+---------------+
 
 After importing successfully, the code is shown as below:
@@ -90,7 +90,7 @@ Open the .py file with Mu. Code, the path is as below:
 +-------------+---------------------------------------+--------------+
 | File type   | Path                                  | File name    |
 +-------------+---------------------------------------+--------------+
-| Python file | ../Projects/PythonCode/14.1_SoftLight | SoftLight.py |
+| Python file | ../Projects/PythonCode/13.1_SoftLight | SoftLight.py |
 +-------------+---------------------------------------+--------------+
 
 After load successfully, the code is shown as below:
@@ -102,7 +102,7 @@ Check the connection of the circuit, verify it correct, download the code into t
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/14.1_SoftLight/SoftLight.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/13.1_SoftLight/SoftLight.py
     :linenos: 
     :language: python
     :lines: 1-3
@@ -110,7 +110,7 @@ The following is the program code:
 
 Read the analog voltage value of the P0 pin, then the P1 pin outputs the same analog voltage value.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/14.1_SoftLight/SoftLight.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/13.1_SoftLight/SoftLight.py
     :linenos: 
     :language: python
     :lines: 3-3
@@ -171,7 +171,7 @@ Open MakeCode first. Import the .hex file. The path is as below:
 +-----------+----------------------------------------------+-----------------------+
 | File type | Path                                         | File name             |
 +-----------+----------------------------------------------+-----------------------+
-| HEX file  | ../Projects/BlockCode/14.2_ColorfulSoftLight | ColorfulSoftLight.hex |
+| HEX file  | ../Projects/BlockCode/13.2_ColorfulSoftLight | ColorfulSoftLight.hex |
 +-----------+----------------------------------------------+-----------------------+
 
 After importing successfully, the code is shown as below:
@@ -214,7 +214,7 @@ Open the py file with Mu. Code, the path is as below:
 +-------------+-----------------------------------------------+----------------------+
 | File type   | Path                                          | File name            |
 +-------------+-----------------------------------------------+----------------------+
-| Python file | ../Projects/PythonCode/14.2_ColorfulSoftLight | ColorfulSoftLight.py |
+| Python file | ../Projects/PythonCode/13.2_ColorfulSoftLight | ColorfulSoftLight.py |
 +-------------+-----------------------------------------------+----------------------+
 
 After loading successfully, the code is shown as below:
@@ -226,7 +226,7 @@ After checking the connection of the circuit, verify it correct, download the co
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/14.2_ColorfulSoftLight/ColorfulSoftLight.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/13.2_ColorfulSoftLight/ColorfulSoftLight.py
     :linenos: 
     :language: python
     :lines: 1-30
@@ -234,7 +234,7 @@ The following is the program code:
 
 Turn OFF the LED screen to use the P3 pin. A custom map() function converts values in one range of numbers to values in another range of numbers.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/14.2_ColorfulSoftLight/ColorfulSoftLight.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/13.2_ColorfulSoftLight/ColorfulSoftLight.py
     :linenos: 
     :language: python
     :lines: 2-4
@@ -242,7 +242,7 @@ Turn OFF the LED screen to use the P3 pin. A custom map() function converts valu
 
 The custom function HSL_RGB()is used to convert the HSL color system to the RGB color system and return the RGB value corresponding to the current hue angle.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/14.2_ColorfulSoftLight/ColorfulSoftLight.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/13.2_ColorfulSoftLight/ColorfulSoftLight.py
     :linenos: 
     :language: python
     :lines: 5-21
@@ -250,13 +250,13 @@ The custom function HSL_RGB()is used to convert the HSL color system to the RGB 
 
 Read the analog voltage value of the P3 pin and convert it to the corresponding hue angle. Call the HSL_RGB() function to return the RGB value corresponding to the current hue angle, and then write the corresponding RGB values to the P0, P1, and P2 pins to change the LED color.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/14.2_ColorfulSoftLight/ColorfulSoftLight.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/13.2_ColorfulSoftLight/ColorfulSoftLight.py
     :linenos: 
     :language: python
     :lines: 22-30
     :dedent:
 
-Project 14.3 Rainbow Light
+Project Rainbow Light
 ***************************************
 
 In this project, we use a potentiometer to control the RGB LED module.
@@ -385,3 +385,5 @@ In the for loop, the analog voltage of the potentiometer is read and converted t
     :language: python
     :lines: 21-29
     :dedent:
+
+.. include:: 14_2_Potentiometer_and_LED.rst
